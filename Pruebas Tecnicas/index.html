@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock, Paper, Scissors</title>
+	<link rel="stylesheet" href="Css/index.css">
+</head>
+<body>
+	<input type="hidden" id="hdScore">
+	<div class="container">
+		<div class="score">
+			<div>
+				<img src="Images/logo.svg" alt="">
+			</div>
+			<div class="points">
+				<label>score</label>
+				<h2 id="hScore">0<h2>
+			</div>
+		</div>
+		<div class="game" id="game">
+			<div class="div-paper" id="div-paper">
+				<img src="Images/icon-paper.svg" alt="">
+			</div>
+			<div class="div-scissors" id="div-scissors">
+				<img src="Images/icon-scissors.svg" alt="">
+			</div>
+			<div class="div-rock" id="div-rock">
+				<img src="Images/icon-rock.svg" alt="">
+			</div>
+		</div>
+
+		<div class="optionsSelect" id="optionsSelect">
+			<div class="divUser">
+				<label>YOU PICKED</label>
+				<div class="userSelect" id="userSelect">
+					<img id="imgUser">
+				</div>
+			</div>
+			<div class="return">
+				<label class="" id="Status"></label>
+				<button id="btnReturn" class="btnReturn">PLAY AGAIN</button>
+			</div>
+			<div class="divBots">
+				<label>THE HOUSE PICKED</label>
+				<div class="botSelect" id="botSelect">
+					<img id="imgBot">
+				</div>
+			</div>
+		</div>
+
+		<div class="validateOption" id="validateOption">
+			<div class="returns">
+				<label class="" id="Statu"></label>
+				<button id="btnReturns" class="btnReturn">PLAY AGAIN</button>
+			</div>
+		</div>
+
+		<div class="buttons">
+			<button id="btnBonus" class="btnBonus">Bonus</button>
+			<button id="btnRules" class="btnRules">Rules</button>
+		</div>
+	</div>
+
+	<div class="popUp-Rules" id="popUp">
+		<div class="div-rules">
+			<div class="title">
+				<h2>RULES</h2>
+				<img src="Images/icon-close.svg" id="close">
+			</div>
+			<img src="Images/image-rules.svg">
+		</div>
+		
+	</div>
+	<script src="Js/jQuery.js"></script>
+	<script src="Js/index.js"></script>
+</body>
+</html>
